@@ -1,0 +1,212 @@
+﻿2021-06-05T10:56:11.6075985-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-05T10:56:11.6079400-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.8.12 in Framework netcore31 in x64 mode execution started
+2021-06-05T10:56:11.6079498-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-05T10:56:11.6103723-05:00;VSTestExecutionThread;Info;Current UserName: 'Familia', MachineName: 'PORTATIL-BREITN'
+2021-06-05T10:56:11.6647778-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\PresentacionesInteractivas.dll
+2021-06-05T10:56:11.6651272-05:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\TestResults" (default)
+2021-06-05T10:56:11.6652452-05:00;VSTestExecutionThread;Info;Profile: 
+2021-06-05T10:56:11.7472580-05:00;VSTestExecutionThread;Info;Log file path: C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\TestResults\Unnamed project__2021-06-05T105611.log
+2021-06-05T10:56:11.7676947-05:00;Thread#12;Info;Checking activation
+2021-06-05T10:56:11.9266931-05:00;Thread#12;Info;Activated.
+2021-06-05T10:56:11.9270651-05:00;Thread#12;Info;Activation check completed
+2021-06-05T10:56:11.9271938-05:00;Thread#12;Info;Starting test run
+2021-06-05T10:56:12.1393545-05:00;Thread#12;Info;Discovering target: Default
+2021-06-05T10:56:12.1396531-05:00;Thread#12;Info;Discovering tests from assembly: C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\PresentacionesInteractivas.dll
+2021-06-05T10:56:12.4987613-05:00;Thread#12;Info;Discovered tests from assembly: C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\PresentacionesInteractivas.dll
+2021-06-05T10:56:12.5010944-05:00:Test Suite Dump
+2021-06-05T10:56:12.5041601-05:00:#0: Unnamed project/ - 
+2021-06-05T10:56:12.5041902-05:00:#1: Default - 
+2021-06-05T10:56:12.5042033-05:00:#2: PresentacionesInteractivas - 
+2021-06-05T10:56:12.5042064-05:00:#3: Calculator - 
+2021-06-05T10:56:12.5062879-05:00:#4: Add two numbers - TestAssembly:PresentacionesInteractivas/Feature:Calculator/Scenario:Add+two+numbers
+2021-06-05T10:56:12.5063802-05:00:End: Test Suite Dump
+2021-06-05T10:56:12.5386093-05:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-05T10:56:12.5419808-05:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-06-05T10:56:12.5421172-05:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-05T10:56:12.5478145-05:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-05T10:56:12.5478301-05:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-05T10:56:12.5478334-05:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2021-06-05T10:56:12.5478383-05:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-05T10:56:12.5507111-05:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-05T10:56:12.5538065-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-05T10:56:12.5593697-05:00:Thread #0: creating new test thread executor for PresentacionesInteractivas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-05T10:56:12.5637353-05:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-05T10:56:12.5640770-05:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-05T10:56:12.6590533-05:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-05T10:56:12.6654071-05:00:starting Out Of Process Executor
+2021-06-05T10:56:12.8103367-05:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-05T10:56:12.8153521-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2021-06-05T10:56:12.8153742-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2021-06-05T10:56:12.8177692-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1'
+2021-06-05T10:56:12.8184462-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-06-05T10:56:12.8186878-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2021-06-05T10:56:12.8188185-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1'
+2021-06-05T10:56:12.8192667-05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-06-05T10:56:12.8202749-05:00:Tfm: netcoreapp3.1
+2021-06-05T10:56:12.8202917-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-06-05T10:56:12.8202947-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-06-05T10:56:12.8205190-05:00:[AssemblyCache] Found file 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2021-06-05T10:56:12.8219603-05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2021-06-05T10:56:12.8231509-05:00:Starting callback TCP Rpc server
+2021-06-05T10:56:12.8824978-05:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-06-05T10:56:12.8825770-05:00:Started callback TCP Rpc server on port 32768
+2021-06-05T10:56:12.8825820-05:00:Starting logger TCP Rpc server
+2021-06-05T10:56:12.9047843-05:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-06-05T10:56:12.9048252-05:00:Started logger TCP Rpc server on port 32769
+2021-06-05T10:56:13.2145378-05:00:Executing test executor at 'dotnet' 'exec "C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 21860 --uniqueId "2021-06-05T105611" --outputFolder "C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1'
+2021-06-05T10:56:13.2266633-05:00:Executor with PID 23116 has been started successfully.
+2021-06-05T10:56:13.2306365-05:00:Out of Process Executor 23116 started
+2021-06-05T10:56:13.2306580-05:00:Waiting for endpoint
+2021-06-05T10:56:13.7620893-05:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=es-MX, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-05T10:56:13.7621918-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' from .deps.json file
+2021-06-05T10:56:13.7621980-05:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' from .deps.json
+2021-06-05T10:56:13.7622101-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1'
+2021-06-05T10:56:13.7622129-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\StreamJsonRpc.resources.dll'
+2021-06-05T10:56:13.7623447-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\StreamJsonRpc.resources.exe'
+2021-06-05T10:56:13.7624609-05:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1'
+2021-06-05T10:56:13.7624745-05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-06-05T10:56:13.7625766-05:00:Tfm: netcoreapp3.1
+2021-06-05T10:56:13.7625843-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-06-05T10:56:13.7625864-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\StreamJsonRpc.resources.dll'
+2021-06-05T10:56:13.7627330-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\StreamJsonRpc.resources.exe'
+2021-06-05T10:56:13.7629000-05:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-06-05T10:56:13.7750766-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15'
+2021-06-05T10:56:13.7751029-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15\StreamJsonRpc.resources.dll'
+2021-06-05T10:56:13.7752429-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15\StreamJsonRpc.resources.exe'
+2021-06-05T10:56:13.7753404-05:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15'
+2021-06-05T10:56:13.7756058-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15'
+2021-06-05T10:56:13.7756176-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15\StreamJsonRpc.resources.dll'
+2021-06-05T10:56:13.7757083-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15\StreamJsonRpc.resources.exe'
+2021-06-05T10:56:13.7757963-05:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15'
+2021-06-05T10:56:13.7760420-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15'
+2021-06-05T10:56:13.7760546-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15\StreamJsonRpc.resources.dll'
+2021-06-05T10:56:13.7761597-05:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15\StreamJsonRpc.resources.exe'
+2021-06-05T10:56:13.7762355-05:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15'
+2021-06-05T10:56:13.7775165-05:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=es, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-05T10:56:13.7795300-05:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-05T10:56:13.7795528-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2021-06-05T10:56:13.7795592-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2021-06-05T10:56:13.7795689-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1'
+2021-06-05T10:56:13.7795949-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-06-05T10:56:13.7799609-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2021-06-05T10:56:13.7801556-05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1'
+2021-06-05T10:56:13.7801694-05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-06-05T10:56:13.7801966-05:00:Tfm: netcoreapp3.1
+2021-06-05T10:56:13.7802046-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-06-05T10:56:13.7802094-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-06-05T10:56:13.7807116-05:00:[AssemblyCache] Found file 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2021-06-05T10:56:13.7820298-05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2021-06-05T10:56:14.3338159-05:00:Remote executor port received: 32770
+2021-06-05T10:56:14.3346031-05:00:Creating executor TCP client on port 32770
+2021-06-05T10:56:14.3353980-05:00:Created executor TCP client on port 32770
+2021-06-05T10:56:14.3354099-05:00:Connecting to remote executor TCP server
+2021-06-05T10:56:14.3370777-05:00:Connected remote executor TCP server
+2021-06-05T10:56:14.3375580-05:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-05T10:56:14.3375764-05:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-05T10:56:14.7128418-05:00:2021-06-05T10:56:14.7098236-05:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\PresentacionesInteractivas.dll on test thread #0
+2021-06-05T10:56:14.7242570-05:00:Endpoint 23116 started
+2021-06-05T10:56:14.7600519-05:00:2021-06-05T10:56:14.7591610-05:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-05T10:56:14.9775233-05:00:2021-06-05T10:56:14.9770169-05:00:Assembly resolving TechTalk.SpecFlow, Version=3.8.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-06-05T10:56:14.9839331-05:00:2021-06-05T10:56:14.9824760-05:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2021-06-05T10:56:14.9891678-05:00:2021-06-05T10:56:14.9885403-05:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\Familia\.nuget\packages\specflow\3.8.7\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2021-06-05T10:56:15.2471832-05:00:2021-06-05T10:56:15.2451078-05:00:Thread#0:T:-> Loading plugin C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\PresentacionesInteractivas.dll
+2021-06-05T10:56:15.2557189-05:00:2021-06-05T10:56:15.2525065-05:00:Assembly resolving Microsoft.Extensions.DependencyModel, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-06-05T10:56:15.2636918-05:00:2021-06-05T10:56:15.2569781-05:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyModel' from .deps.json file
+2021-06-05T10:56:15.2707073-05:00:2021-06-05T10:56:15.2653588-05:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyModel' to 'C:\Users\Familia\.nuget\packages\microsoft.extensions.dependencymodel\1.0.3\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll'
+2021-06-05T10:56:15.3685904-05:00:2021-06-05T10:56:15.3661343-05:00:Assembly resolving Microsoft.DotNet.PlatformAbstractions, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-06-05T10:56:15.3697811-05:00:2021-06-05T10:56:15.3692950-05:00:[AssemblyCache] Trying to resolve 'Microsoft.DotNet.PlatformAbstractions' from .deps.json file
+2021-06-05T10:56:15.3707415-05:00:2021-06-05T10:56:15.3703924-05:00:[AssemblyCache] Resolved 'Microsoft.DotNet.PlatformAbstractions' to 'C:\Users\Familia\.nuget\packages\microsoft.dotnet.platformabstractions\1.0.3\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll'
+2021-06-05T10:56:15.3853257-05:00:2021-06-05T10:56:15.3840243-05:00:Thread#0:T:-> Missing [assembly:RuntimePlugin] attribute in PresentacionesInteractivas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+2021-06-05T10:56:15.3922500-05:00:2021-06-05T10:56:15.3903994-05:00:Thread#0:T:-> Loading plugin C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+2021-06-05T10:56:15.4050692-05:00:2021-06-05T10:56:15.4040970-05:00:Assembly resolving LivingDoc.Dtos, Version=3.8.0.0, Culture=neutral, PublicKeyToken=null
+2021-06-05T10:56:15.4171123-05:00:2021-06-05T10:56:15.4054589-05:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2021-06-05T10:56:15.4269518-05:00:2021-06-05T10:56:15.4232872-05:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to 'C:\Users\Familia\.nuget\packages\specflow.plus.livingdocplugin\3.8.35\lib\netstandard2.0\LivingDoc.Dtos.dll'
+2021-06-05T10:56:15.4384858-05:00:2021-06-05T10:56:15.4350635-05:00:Thread#0:T:-> Loading plugin C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-05T10:56:15.4692126-05:00:2021-06-05T10:56:15.4545756-05:00:Thread#0:T:-> Using default config
+2021-06-05T10:56:15.4935339-05:00:2021-06-05T10:56:15.4879208-05:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2021-06-05T10:56:15.5099850-05:00:2021-06-05T10:56:15.4940453-05:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2021-06-05T10:56:15.5400571-05:00:2021-06-05T10:56:15.5315052-05:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\Familia\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2021-06-05T10:56:15.5742609-05:00:2021-06-05T10:56:15.5647935-05:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2021-06-05T10:56:15.5850261-05:00:2021-06-05T10:56:15.5821403-05:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2021-06-05T10:56:15.5952871-05:00:2021-06-05T10:56:15.5865971-05:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\Familia\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2021-06-05T10:56:15.6198374-05:00:2021-06-05T10:56:15.6040613-05:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-05T10:56:15.6247148-05:00:2021-06-05T10:56:15.6232815-05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2021-06-05T10:56:15.6311008-05:00:2021-06-05T10:56:15.6293012-05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\Familia\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2021-06-05T10:56:15.6968347-05:00:2021-06-05T10:56:15.6880170-05:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2021-06-05T10:56:15.6979048-05:00:2021-06-05T10:56:15.6973127-05:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2021-06-05T10:56:15.6990213-05:00:2021-06-05T10:56:15.6984923-05:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\Familia\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2021-06-05T10:56:16.1106325-05:00:Thread#0: Test #4/0 is started on thread #0
+2021-06-05T10:56:16.1492320-05:00:2021-06-05T10:56:16.1475736-05:00:Thread#0:B:Given the first number is 50
+2021-06-05T10:56:16.2227609-05:00:2021-06-05T10:56:16.2223227-05:00:Thread#0:T:pending: CalculatorStepDefinitions.GivenTheFirstNumberIs(50)
+2021-06-05T10:56:16.2271760-05:00:2021-06-05T10:56:16.2266715-05:00:Thread#0:B:And the second number is 70
+2021-06-05T10:56:16.2292967-05:00:2021-06-05T10:56:16.2289309-05:00:Thread#0:T:skipped because of previous errors
+2021-06-05T10:56:16.2341485-05:00:2021-06-05T10:56:16.2337201-05:00:Thread#0:B:When the two numbers are added
+2021-06-05T10:56:16.2350456-05:00:2021-06-05T10:56:16.2346825-05:00:Thread#0:T:skipped because of previous errors
+2021-06-05T10:56:16.2361103-05:00:2021-06-05T10:56:16.2357903-05:00:Thread#0:B:Then the result should be 120
+2021-06-05T10:56:16.2367168-05:00:2021-06-05T10:56:16.2364817-05:00:Thread#0:T:skipped because of previous errors
+2021-06-05T10:56:16.2466766-05:00:2021-06-05T10:56:16.2463071-05:00:Thread#0:T:Pending: One or more step definitions are not implemented yet.
+2021-06-05T10:56:16.2472343-05:00:2021-06-05T10:56:16.2469734-05:00:Thread#0:T:  CalculatorStepDefinitions.GivenTheFirstNumberIs(50)
+2021-06-05T10:56:16.2580194-05:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-05T10:56:16.2580720-05:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-05T10:56:16.2580757-05:00:Thread#0:Scheduler: enumerator for thread is at end
+2021-06-05T10:56:16.2580809-05:00:Thread#0:Scheduler: No more tests for thread
+2021-06-05T10:56:16.3165248-05:00:Thread#0: Test #4/0 is finished on thread #0 as Pending within 0,2040956 seconds
+2021-06-05T10:56:16.3292710-05:00:2021-06-05T10:56:16.3288036-05:00:Got Deinitialize Signal
+2021-06-05T10:56:16.3344756-05:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-06-05T10:56:16.3354921-05:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-06-05T10:56:16.3383677-05:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-06-05T10:56:16.3405511-05:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=es-MX, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-05T10:56:16.3405781-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2021-06-05T10:56:16.3405852-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2021-06-05T10:56:16.3405945-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1'
+2021-06-05T10:56:16.3405971-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-06-05T10:56:16.3407102-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-06-05T10:56:16.3408391-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1'
+2021-06-05T10:56:16.3408581-05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-06-05T10:56:16.3409863-05:00:Tfm: netcoreapp3.1
+2021-06-05T10:56:16.3410020-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-06-05T10:56:16.3410047-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-06-05T10:56:16.3411778-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-06-05T10:56:16.3413527-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-06-05T10:56:16.3426189-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15'
+2021-06-05T10:56:16.3426349-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15\System.Diagnostics.Process.resources.dll'
+2021-06-05T10:56:16.3427555-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15\System.Diagnostics.Process.resources.exe'
+2021-06-05T10:56:16.3428566-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.15'
+2021-06-05T10:56:16.3430413-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15'
+2021-06-05T10:56:16.3430516-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15\System.Diagnostics.Process.resources.dll'
+2021-06-05T10:56:16.3431464-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15\System.Diagnostics.Process.resources.exe'
+2021-06-05T10:56:16.3432355-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.15'
+2021-06-05T10:56:16.3434411-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15'
+2021-06-05T10:56:16.3434516-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15\System.Diagnostics.Process.resources.dll'
+2021-06-05T10:56:16.3435585-05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15\System.Diagnostics.Process.resources.exe'
+2021-06-05T10:56:16.3436510-05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.15'
+2021-06-05T10:56:16.3441465-05:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=es, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-05T10:56:16.3555964-05:00:Thread#-1:Scheduler: get next test for thread -1
+2021-06-05T10:56:16.3556363-05:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-05T10:56:16.3556441-05:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-06-05T10:56:16.3595763-05:00;Thread#12;Info;test run finished
+2021-06-05T10:56:16.3599300-05:00;Thread#12;Info;publishing test results
+2021-06-05T10:56:16.3602245-05:00;Thread#12;Info;Not publishing results.
+2021-06-05T10:56:16.3603464-05:00;Thread#12;Info;test results published
+2021-06-05T10:56:16.3604949-05:00;Thread#12;Info;generating reports
+2021-06-05T10:56:16.4964856-05:00;Thread#12;Info;Starting external report generation process
+2021-06-05T10:56:20.4175089-05:00;Thread#12;Info;Successfully generated reports.
+2021-06-05T10:56:20.4216457-05:00;Thread#12;Info;Successfully generated reports
+2021-06-05T10:56:20.4323639-05:00:Total: 1
+2021-06-05T10:56:20.4361400-05:00:Succeeded: 0
+2021-06-05T10:56:20.4364984-05:00:Ignored: 0
+2021-06-05T10:56:20.4367696-05:00:Pending: 1
+2021-06-05T10:56:20.4367788-05:00:Skipped: 0
+2021-06-05T10:56:20.4370366-05:00:Failed: 0
+2021-06-05T10:56:20.4443466-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2021-06-05T10:56:20.4446746-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Familia\source\repos\mcic\tendencias\PresentacionesInteractivas\TestResults\Unnamed project__2021-06-05T105611.html'
+========== End of log file ==========

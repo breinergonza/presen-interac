@@ -1,0 +1,58 @@
+
+name: Compilar ejemplo Specflow
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  #pull_request:
+  # branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    env:
+    
+      SPECFLOW_PROJECT: PresentacionesInteractivas
+      
+    runs-on: ubuntu-latest
+    container: breinergonza/mono:latest
+    
+    steps:
+      
+      - name: Checkout project
+        uses: actions/checkout@v2
+  
+      - name: Setup .NET Core SDK 3.1.x
+        uses: actions/setup-dotnet@v1.7.2
+        with:
+          dotnet-version: '3.1.x'
+      
+      - name: Build
+        run: dotnet build
+
+      - name: Test
+        run: dotnet test
+      
+      - name:  Instalar generador de documentacion
+        run: dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
+      
+      - name: Generate LivingDoc documentation
+        run: |
+          export PATH="$PATH:/github/home/.dotnet/tools"
+          livingdoc test-assembly ./$SPECFLOW_PROJECT/bin/Debug/netcoreapp3.1/$SPECFLOW_PROJECT.dll -t ./$SPECFLOW_PROJECT/bin/Debug/netcoreapp3.1/TestExecution.json --output ./docs/index.html
+          
+      - name: Instalar Rsync
+        run: sudo apt-get install -y rsync 
+        
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.3
+        with:
+          branch: gh-pages
+          folder: ./docs 
+        
