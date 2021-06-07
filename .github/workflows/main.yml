@@ -13,7 +13,7 @@ jobs:
   build:
     env:
     
-      SPECFLOW_PROJECT: PresentacionesInteractivas
+      SPECFLOW_PROJECT: PresInteractivas.Test
       
     runs-on: ubuntu-latest
     container: breinergonza/mono:latest
@@ -23,13 +23,13 @@ jobs:
       - name: Checkout project
         uses: actions/checkout@v2
   
-      - name: Setup .NET Core SDK 3.1.x
-        uses: actions/setup-dotnet@v1.7.2
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '3.1.x'
+          dotnet-version: '5.0.x'
       
-      - name: Build
-        run: dotnet build
+      - name: Build with dotnet
+        run: dotnet build --configuration Release
 
       - name: Test
         run: dotnet test
@@ -40,7 +40,7 @@ jobs:
       - name: Generate LivingDoc documentation
         run: |
           export PATH="$PATH:/github/home/.dotnet/tools"
-          livingdoc test-assembly ./$SPECFLOW_PROJECT/bin/Debug/netcoreapp3.1/$SPECFLOW_PROJECT.dll -t ./$SPECFLOW_PROJECT/bin/Debug/netcoreapp3.1/TestExecution.json --output ./docs/index.html
+          livingdoc test-assembly ./$SPECFLOW_PROJECT/bin/Debug/net5.0/$SPECFLOW_PROJECT.dll -t ./$SPECFLOW_PROJECT/bin/Debug/net5.0/TestExecution.json --output ./docs/index.html
           
       - name: Instalar Rsync
         run: sudo apt-get install -y rsync 
