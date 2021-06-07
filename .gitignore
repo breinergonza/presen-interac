@@ -1,0 +1,6 @@
+TestResults/*
+TestResults/*.log
+TestResults/*.html
+PresInteractivas.Test/TestResults/*.log
+PresInteractivas.Test/TestResults/*.html
+PresInteractivas.Test/TestResults/Unnamed project__2021-06-07T180505.log
