@@ -16,7 +16,7 @@ jobs:
       SPECFLOW_PROJECT: PresInteractivas.Test
       
     runs-on: ubuntu-latest
-    container: breinergonza/mono:latest
+    container: breinergonza/mono:test
     
     steps:
       
