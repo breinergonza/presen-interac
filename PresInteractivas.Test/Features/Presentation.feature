@@ -1,5 +1,5 @@
 ﻿Feature: Presentation
-![Presentation](https://firebasestorage.googleapis.com/v0/b/puzzle-app-3ed86.appspot.com/o/pres.jpg?alt=media&token=5210781c-1de8-49cb-b000-2d31b96fc833)
+![Presentation](https://firebasestorage.googleapis.com/v0/b/puzzle-app-3ed86.appspot.com/o/pres.jpg?alt=media&token=9d4cd26b-7e13-4f24-8b92-739fe645a006)
 Como usuario deseo poder administrar aplicaciones web 
 
 Caracteristicas: [Presentation](PresInteractivas.Test/Features/Presentation.feature)
