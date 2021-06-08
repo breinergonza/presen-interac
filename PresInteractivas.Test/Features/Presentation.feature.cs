@@ -19,7 +19,7 @@ namespace PresInteractivas.Test.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.8.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("Presentation", Description=@"![Presentation](https://firebasestorage.googleapis.com/v0/b/puzzle-app-3ed86.appspot.com/o/pres.jpg?alt=media&token=5210781c-1de8-49cb-b000-2d31b96fc833)
+    [TechTalk.SpecRun.FeatureAttribute("Presentation", Description=@"![Presentation](https://firebasestorage.googleapis.com/v0/b/puzzle-app-3ed86.appspot.com/o/pres.jpg?alt=media&token=9d4cd26b-7e13-4f24-8b92-739fe645a006)
 Como usuario deseo poder administrar aplicaciones web 
 
 Caracteristicas: [Presentation](PresInteractivas.Test/Features/Presentation.feature)
@@ -38,7 +38,7 @@ Caracteristicas: [Presentation](PresInteractivas.Test/Features/Presentation.feat
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Presentation", @"![Presentation](https://firebasestorage.googleapis.com/v0/b/puzzle-app-3ed86.appspot.com/o/pres.jpg?alt=media&token=5210781c-1de8-49cb-b000-2d31b96fc833)
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Presentation", @"![Presentation](https://firebasestorage.googleapis.com/v0/b/puzzle-app-3ed86.appspot.com/o/pres.jpg?alt=media&token=9d4cd26b-7e13-4f24-8b92-739fe645a006)
 Como usuario deseo poder administrar aplicaciones web 
 
 Caracteristicas: [Presentation](PresInteractivas.Test/Features/Presentation.feature)
