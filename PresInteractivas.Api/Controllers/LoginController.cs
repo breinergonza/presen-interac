@@ -13,7 +13,7 @@ namespace PresInteractivas.Api.Controllers
 {
     //[Authorize]
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class LoginController : ControllerBase
     {
         private readonly LoginBL _login = new LoginBL();

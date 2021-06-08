@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -14,6 +14,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using PresInteractivas.Api.Data;
 
 namespace PresInteractivas.Api
 {
@@ -37,6 +39,9 @@ namespace PresInteractivas.Api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PresInteractivas.Api", Version = "v1" });
             });
+
+            services.AddDbContext<PresInteractivasApiContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("PresInteractivasApiContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
