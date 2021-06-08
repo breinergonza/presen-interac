@@ -187,3 +187,4 @@ C:\Users\Familia\source\repos\mcic\tendencias\presen-interac\PresInteractivas.Ap
 C:\Users\Familia\source\repos\mcic\tendencias\presen-interac\PresInteractivas.Api\obj\Debug\net5.0\ref\PresInteractivas.Api.dll
 C:\Users\Familia\source\repos\mcic\tendencias\presen-interac\PresInteractivas.Api\obj\Debug\net5.0\PresInteractivas.Api.pdb
 C:\Users\Familia\source\repos\mcic\tendencias\presen-interac\PresInteractivas.Api\obj\Debug\net5.0\PresInteractivas.Api.genruntimeconfig.cache
+C:\Users\Familia\source\repos\mcic\tendencias\presen-interac\PresInteractivas.Api\obj\Debug\net5.0\PresInteractivas.Api.csprojAssemblyReference.cache

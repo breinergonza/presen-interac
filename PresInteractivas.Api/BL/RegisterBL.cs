@@ -17,11 +17,6 @@ namespace PresInteractivas.Api.BL
         //    _context = context;
         //}
 
-        public bool AddUser()
-        {
-            return true;
-        }
-
         /// <summary>
         /// Metodo que devuelve el listado de usuarios
         /// </summary>
@@ -129,7 +124,7 @@ namespace PresInteractivas.Api.BL
                 },
                 new UserDto()
                 {
-                    id = 1,
+                    id = 2,
                     nombres = "Alejandro",
                     apellidos = "Gonzalez",
                     fechaNacimiento = new DateTime(day: 10, month: 12, year: 2018),

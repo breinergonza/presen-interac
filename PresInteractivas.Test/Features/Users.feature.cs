@@ -19,9 +19,11 @@ namespace PresInteractivas.Test.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.8.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("Users", Description="![Login](https://firebasestorage.googleapis.com/v0/b/puzzle-app-3ed86.appspot.com" +
-        "/o/nextauth%20(2).jpg?alt=media&token=ed41aecb-7b3f-4c61-a2c6-81d7a1b83e96)\r\n\tCo" +
-        "mo usuario deseo poder registrarme con redes sociales", SourceFile="Features\\Users.feature", SourceLine=0)]
+    [TechTalk.SpecRun.FeatureAttribute("Users", Description=@"![Users](https://firebasestorage.googleapis.com/v0/b/puzzle-app-3ed86.appspot.com/o/users%20(2).jpg?alt=media&token=c8011ab4-f152-45ad-9071-37ca856ad058)
+	Como usuario deseo poder registrarme con redes sociales
+
+Caracteristicas: [Users](PresInteractivas.Test/Features/Users.feature)
+***Power by***: **[Breitner Gonzalez](http://breinergonza.github.io/)**", SourceFile="Features\\Users.feature", SourceLine=0)]
     public partial class UsersFeature
     {
         
@@ -36,9 +38,11 @@ namespace PresInteractivas.Test.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Users", "![Login](https://firebasestorage.googleapis.com/v0/b/puzzle-app-3ed86.appspot.com" +
-                    "/o/nextauth%20(2).jpg?alt=media&token=ed41aecb-7b3f-4c61-a2c6-81d7a1b83e96)\r\n\tCo" +
-                    "mo usuario deseo poder registrarme con redes sociales", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Users", @"![Users](https://firebasestorage.googleapis.com/v0/b/puzzle-app-3ed86.appspot.com/o/users%20(2).jpg?alt=media&token=c8011ab4-f152-45ad-9071-37ca856ad058)
+	Como usuario deseo poder registrarme con redes sociales
+
+Caracteristicas: [Users](PresInteractivas.Test/Features/Users.feature)
+***Power by***: **[Breitner Gonzalez](http://breinergonza.github.io/)**", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -75,14 +79,14 @@ namespace PresInteractivas.Test.Features
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Como usuario deseo poder registrarme con Google", new string[] {
-                "google"}, SourceLine=5)]
+                "google"}, SourceLine=9)]
         public virtual void ComoUsuarioDeseoPoderRegistrarmeConGoogle()
         {
             string[] tagsOfScenario = new string[] {
                     "google"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Como usuario deseo poder registrarme con Google", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 6
+#line 10
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -102,22 +106,22 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 7
+#line 11
  testRunner.Given("El nombre del usuario es Juan", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 8
+#line 12
  testRunner.And("El apellido es Charrasqueado", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 9
+#line 13
  testRunner.And("la fecha de nacimiento es 10/14/1980", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 10
+#line 14
  testRunner.And("el tipo de red social a registrar 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 11
+#line 15
  testRunner.When("se valida el registro", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 12
+#line 16
  testRunner.Then("el resultado debe ser true", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -125,14 +129,14 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Como usuario deseo poder registrarme con Facebook", new string[] {
-                "facebook"}, SourceLine=14)]
+                "facebook"}, SourceLine=18)]
         public virtual void ComoUsuarioDeseoPoderRegistrarmeConFacebook()
         {
             string[] tagsOfScenario = new string[] {
                     "facebook"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Como usuario deseo poder registrarme con Facebook", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 15
+#line 19
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -152,22 +156,22 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 16
+#line 20
  testRunner.Given("El nombre del usuario es Pedro", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 17
+#line 21
  testRunner.And("El apellido es Paramo", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 18
+#line 22
  testRunner.And("la fecha de nacimiento es 01/10/1989", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 19
+#line 23
  testRunner.And("el tipo de red social a registrar 2", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 20
+#line 24
  testRunner.When("se valida el registro", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 21
+#line 25
  testRunner.Then("el resultado debe ser true", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

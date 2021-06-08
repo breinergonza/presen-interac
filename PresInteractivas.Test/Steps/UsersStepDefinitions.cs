@@ -16,8 +16,6 @@ namespace PresInteractivas.Test.Steps
         private string _nombres;
         private string _apellidos;
         private DateTime _fechaNacimiento;
-        private string _user;
-        private string _password;
         private int _social;
         private bool _result;
 

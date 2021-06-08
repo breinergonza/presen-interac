@@ -1,6 +1,10 @@
 ﻿Feature: Users
-![Login](https://firebasestorage.googleapis.com/v0/b/puzzle-app-3ed86.appspot.com/o/nextauth%20(2).jpg?alt=media&token=ed41aecb-7b3f-4c61-a2c6-81d7a1b83e96)
+![Users](https://firebasestorage.googleapis.com/v0/b/puzzle-app-3ed86.appspot.com/o/users%20(2).jpg?alt=media&token=c8011ab4-f152-45ad-9071-37ca856ad058)
 	Como usuario deseo poder registrarme con redes sociales
+
+Caracteristicas: [Users](PresInteractivas.Test/Features/Users.feature)
+***Power by***: **[Breitner Gonzalez](http://breinergonza.github.io/)**
+
 
 @google
 Scenario: Como usuario deseo poder registrarme con Google
